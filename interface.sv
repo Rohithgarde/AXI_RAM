@@ -122,7 +122,7 @@
 122     //Declare modports to specify the directions
 123     //modport for master driver
 124
-125     modport axi_master_ dr_mp(input clk,rst,clocking axi_master_dr_cb);
+125     modport axi_master_dr_mp(input clk,rst,clocking axi_master_dr_cb);
 126
 127     //modport for master monitor
 128     modport axi_master_mo_mp(input clk,rst,clocking axi_master_ mo_cb);
